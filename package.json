@@ -1,0 +1,14 @@
+{
+  "name": "pose-camera-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "mobile": "cd apps/mobile && npm start",
+    "backend": "cd apps/backend && npm start",
+    "dev": "concurrently \"npm run mobile\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

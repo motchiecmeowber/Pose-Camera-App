@@ -1,0 +1,62 @@
+{
+    "categories": [
+        {
+            "id": "portrait",
+            "label": "Chân dung",
+            "color": "#FF4081"
+        },
+        {
+            "id": "halfbody",
+            "label": "Bán thân",
+            "color": "#5BE3F5"
+        },
+        {
+            "id": "fullbody",
+            "label": "Toàn thân",
+            "color": "#4CAF50"
+        }
+    ],
+    "poses": [
+        {
+            "id": "graduation_01",
+            "name": "Tốt nghiệp 1",
+            "category": "portrait",
+            "description": "Dáng chụp chân dung khoe huy chương tốt nghiệp",
+            "color": "#FFFFFF",
+            "lineWidth": 2.5,
+            "opacity": 0.75,
+            "thumbnail": "graduation_01.png"
+        },
+        {
+            "id": "graduation_02",
+            "name": "Tốt nghiệp 2",
+            "category": "halfbody",
+            "description": "Dáng chụp nửa người một tay đưa giấy báo về trước",
+            "color": "#FFFFFF",
+            "lineWidth": 2.5,
+            "opacity": 0.75,
+            "thumbnail": "graduation_02.png"
+        },
+        {
+            "id": "graduation_03",
+            "name": "Tốt nghiệp",
+            "category": "halfbody",
+            "description": "Dáng chụp nửa người, đưa hai tay lên, một tay cầm giấy báo",
+            "color": "#FFFFFF",
+            "lineWidth": 2.5,
+            "opacity": 0.75,
+            "thumbnail": "graduation_03.png"
+        },
+        {
+            "id": "play_guitar",
+            "name": "Chơi guitar",
+            "category": "fullbody",
+            "difficulty": 1,
+            "description": "Dáng ngồi thẳng, chơi guitar",
+            "color": "#FFFFFF",
+            "lineWidth": 2.5,
+            "opacity": 0.75,
+            "thumbnail": "play_guitar.png"
+        }
+    ]
+}

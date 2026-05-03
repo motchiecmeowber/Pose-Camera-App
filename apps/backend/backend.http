@@ -1,0 +1,9 @@
+@backend_HostAddress = http://localhost:5000
+
+GET {{backend_HostAddress}}/api/poses/
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/poses/1
+Accept: application/json

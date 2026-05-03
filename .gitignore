@@ -1,0 +1,19 @@
+# Node / Expo
+node_modules/
+.expo/
+dist/
+
+# Env
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# .NET
+bin/
+obj/
