@@ -1,62 +1,206 @@
 {
-    "categories": [
-        {
-            "id": "portrait",
-            "label": "Chân dung",
-            "color": "#FF4081"
-        },
-        {
-            "id": "halfbody",
-            "label": "Bán thân",
-            "color": "#5BE3F5"
-        },
-        {
-            "id": "fullbody",
-            "label": "Toàn thân",
-            "color": "#4CAF50"
-        }
-    ],
-    "poses": [
-        {
-            "id": "graduation_01",
-            "name": "Tốt nghiệp 1",
-            "category": "portrait",
-            "description": "Dáng chụp chân dung khoe huy chương tốt nghiệp",
-            "color": "#FFFFFF",
-            "lineWidth": 2.5,
-            "opacity": 0.75,
-            "thumbnail": "graduation_01.png"
-        },
-        {
-            "id": "graduation_02",
-            "name": "Tốt nghiệp 2",
-            "category": "halfbody",
-            "description": "Dáng chụp nửa người một tay đưa giấy báo về trước",
-            "color": "#FFFFFF",
-            "lineWidth": 2.5,
-            "opacity": 0.75,
-            "thumbnail": "graduation_02.png"
-        },
-        {
-            "id": "graduation_03",
-            "name": "Tốt nghiệp",
-            "category": "halfbody",
-            "description": "Dáng chụp nửa người, đưa hai tay lên, một tay cầm giấy báo",
-            "color": "#FFFFFF",
-            "lineWidth": 2.5,
-            "opacity": 0.75,
-            "thumbnail": "graduation_03.png"
-        },
-        {
-            "id": "play_guitar",
-            "name": "Chơi guitar",
-            "category": "fullbody",
-            "difficulty": 1,
-            "description": "Dáng ngồi thẳng, chơi guitar",
-            "color": "#FFFFFF",
-            "lineWidth": 2.5,
-            "opacity": 0.75,
-            "thumbnail": "play_guitar.png"
-        }
-    ]
+  "categories": [
+    {
+      "id": "tot-nghiep",
+      "label": "Tốt nghiệp",
+      "color": "#FF4081"
+    },
+    {
+      "id": "bai-bien",
+      "label": "Bãi biển",
+      "color": "#5BE3F5"
+    },
+    {
+      "id": "du-lich",
+      "label": "Du lịch",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "dung",
+      "label": "Đứng",
+      "color": "#FFC107"
+    },
+    {
+      "id": "ngoi",
+      "label": "Ngồi",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "quan-cafe",
+      "label": "Quán cafe",
+      "color": "#FF9800"
+    }
+  ],
+  "poses": [
+    {
+      "id": "bai_bien_1",
+      "name": "Bãi biển 1",
+      "category": "bai-bien",
+      "description": "Bãi biển 1",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Bãi biển 1.png"
+    },
+    {
+      "id": "bai_bien_2",
+      "name": "Bãi biển 2",
+      "category": "bai-bien",
+      "description": "Bãi biển 2",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Bãi biển 2.png"
+    },
+    {
+      "id": "bai_bien_3",
+      "name": "Bãi biển 3",
+      "category": "bai-bien",
+      "description": "Bãi biển 3",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Bãi biển 3.png"
+    },
+    {
+      "id": "bai_bien_4",
+      "name": "Bãi biển 4",
+      "category": "bai-bien",
+      "description": "Bãi biển 4",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Bãi biển 4.png"
+    },
+    {
+      "id": "du_lich_1",
+      "name": "Du lịch 1",
+      "category": "du-lich",
+      "description": "Du lịch 1",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Du lịch 1.png"
+    },
+    {
+      "id": "du_lich_2",
+      "name": "Du lịch 2",
+      "category": "du-lich",
+      "description": "Du lịch 2",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Du lịch 2.png"
+    },
+    {
+      "id": "du_lich_3",
+      "name": "Du lịch 3",
+      "category": "du-lich",
+      "description": "Du lịch 3",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Du lịch 3.png"
+    },
+    {
+      "id": "ngoi_1",
+      "name": "Ngồi 1",
+      "category": "ngoi",
+      "description": "Ngồi 1",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Ngồi 1.png"
+    },
+    {
+      "id": "ngoi_2",
+      "name": "Ngồi 2",
+      "category": "ngoi",
+      "description": "Ngồi 2",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Ngồi 2.png"
+    },
+    {
+      "id": "quan_cafe_1",
+      "name": "Quán cafe 1",
+      "category": "quan-cafe",
+      "description": "Quán cafe 1",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Quán cafe 1.png"
+    },
+    {
+      "id": "quan_cafe_2",
+      "name": "Quán cafe 2",
+      "category": "quan-cafe",
+      "description": "Quán cafe 2",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Quán cafe 2.png"
+    },
+    {
+      "id": "quan_cafe_3",
+      "name": "Quán cafe 3",
+      "category": "quan-cafe",
+      "description": "Quán cafe 3",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Quán cafe 3.png"
+    },
+    {
+      "id": "tot_nghiep_1",
+      "name": "Tốt nghiệp 1",
+      "category": "tot-nghiep",
+      "description": "Tốt nghiệp 1",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Tốt nghiệp 1.png"
+    },
+    {
+      "id": "tot_nghiep_2",
+      "name": "Tốt nghiệp 2",
+      "category": "tot-nghiep",
+      "description": "Tốt nghiệp 2",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Tốt nghiệp 2.png"
+    },
+    {
+      "id": "tot_nghiep_3",
+      "name": "Tốt nghiệp 3",
+      "category": "tot-nghiep",
+      "description": "Tốt nghiệp 3",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Tốt nghiệp 3.png"
+    },
+    {
+      "id": "dung_1",
+      "name": "Đứng 1",
+      "category": "dung",
+      "description": "Đứng 1",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Đứng 1.png"
+    },
+    {
+      "id": "dung_2",
+      "name": "Đứng 2",
+      "category": "dung",
+      "description": "Đứng 2",
+      "color": "#FFFFFF",
+      "lineWidth": 2.5,
+      "opacity": 0.75,
+      "thumbnail": "Đứng 2.png"
+    }
+  ]
 }
