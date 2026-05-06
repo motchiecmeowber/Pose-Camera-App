@@ -1,4 +1,4 @@
-# Pose Camera App
+# CamBuddy
 
 ## 📂 Cấu trúc dự án
 
